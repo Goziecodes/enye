@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import './App.css';
+import Navbar from './components/NavBar/Navbar.jsx';
 
 function App() {
   const [cardDetails, setCardDetails ] = useState([]);
@@ -27,6 +29,9 @@ function App() {
 
 
   return (
+    <>
+    <Navbar />
+    <div style={{"margin-top": "150px"}} /> {/* this is to push contents after navBar down because i made the navbar fixed */}
     <div>
       <h1>I am enye</h1>
       <ul>
@@ -38,6 +43,8 @@ function App() {
       </ul>
       {console.log(cardDetails.length,'cardd')}
     </div>
+
+    </>
   );
 }
 
