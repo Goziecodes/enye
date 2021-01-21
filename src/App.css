@@ -52,3 +52,17 @@ body {
 .search.active .btn {
   transform: translateX(198px);
 }
+
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card-list {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
