@@ -53,11 +53,11 @@ body {
   transform: translateX(198px);
 }
 
-.filters {
+/* .filters {
   display: flex;
   justify-content: center;
   gap: 20px;
-}
+} */
 
 .card-list {
   margin-top: 20px;

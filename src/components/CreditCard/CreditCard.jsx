@@ -9,7 +9,7 @@ function CreditCard({ cards }) {
   console.log(cards, "abiam");
   return (
     <>
-      <div>
+      <div container>
         <div className="credit-card">
           <div className="credit-top font-bold">
             <h5>{cards.CreditCardType}</h5>
@@ -95,53 +95,53 @@ function CreditCard({ cards }) {
                     <div className="sm:flex sm:items-start">
                       <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
                         <h3
-                          className="text-lg leading-6 font-medium text-gray-900"
+                          className="text-2xl leading-6 font-bold text-gray-900"
                           id="modal-headline"
                         >
                           Card Details
                         </h3>
-                        <div className="mt-2">
-                          <p className="text-sm text-gray-500">
-                            Email: ezechukw@gmail.com
+                        <div className="mt-4">
+                          <p className="text-xl font-medium text-gray-500">
+                            <b>Email:</b> ezechukw@gmail.com
                           </p>
-                          <p className="text-sm text-gray-500">
-                            Full Name: {cards.FirstName} {cards.LastName}
+                          <p className="text-xl font-mediu text-gray-500 mb-2">
+                            <b>Full Name:</b> {cards.FirstName} {cards.LastName}
                           </p>
-                          <p className="text-sm text-gray-500">
-                            Gender: {cards.Gender}
+                          <p className="text-xl font-medium text-gray-500 mb-2">
+                            <b>Gender:</b> {cards.Gender}
                           </p>
-                          <p className="text-sm text-gray-500">
-                            Latitude: {cards.Latitude}
+                          <p className="text-xl font-medium text-gray-500 mb-2">
+                            <b>Latitude:</b> {cards.Latitude}
                           </p>
-                          <p className="text-sm text-gray-500">
-                            Longitude: {cards.Longitude}
+                          <p className="text-xl font-medium text-gray-500 mb-2">
+                            <b>Longitude:</b> {cards.Longitude}
                           </p>
-                          <p className="text-sm text-gray-500">
-                            CreditCardNumber: {cards.CreditCardNumber}
+                          <p className="text-xl font-medium text-gray-500 mb-2">
+                            <b>CreditCardNumber:</b> {cards.CreditCardNumber}
                           </p>
-                          <p className="text-sm text-gray-500">
-                            CreditCardType: {cards.CreditCardType}
+                          <p className="text-xl font-medium text-gray-500 mb-2">
+                            <b>CreditCardType:</b> {cards.CreditCardType}
                           </p>
-                          <p className="text-sm text-gray-500">
-                            DomainName: {cards.DomainName}
+                          <p className="text-xl font-medium text-gray-500 mb-2">
+                            <b>DomainName:</b> {cards.DomainName}
                           </p>
-                          <p className="text-sm text-gray-500">
-                            PhoneNumber: {cards.PhoneNumber}
+                          <p className="text-xl font-medium text-gray-500 mb-2">
+                            <b>PhoneNumber:</b> {cards.PhoneNumber}
                           </p>
-                          <p className="text-sm text-gray-500">
-                            MacAddress: {cards.MacAddress}
+                          <p className="text-xl font-medium text-gray-500 mb-2">
+                            <b>MacAddress:</b> {cards.MacAddress}
                           </p>
-                          <p className="text-sm text-gray-500">
-                            URL: {cards.URL}
+                          <p className="text-xl font-medium text-gray-500 mb-2">
+                            <b>URL:</b> {cards.URL}
                           </p>
-                          <p className="text-sm text-gray-500">
-                            UserName: {cards.UserName}
+                          <p className="text-xl font-medium text-gray-500 mb-2">
+                            <b>UserName:</b> {cards.UserName}
                           </p>
-                          <p className="text-sm text-gray-500">
-                            LastLogin: {cards.LastLogin}
+                          <p className="text-xl font-medium text-gray-500 mb-2">
+                            <b>LastLogin:</b> {cards.LastLogin}
                           </p>
-                          <p className="text-sm text-gray-500">
-                            PaymentMethod: {cards.PaymentMethod}
+                          <p className="text-xl font-medium text-gray-500 ">
+                            <b>PaymentMethod:</b> {cards.PaymentMethod}
                           </p>
                         </div>
                       </div>
