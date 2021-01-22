@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import Navbar from "./components/NavBar/Navbar.jsx";
-import CreditCard from "./components/CreditCard/CreditCard.jsx";
+// import CreditCard from "./components/CreditCard/CreditCard.jsx";
 import Pagination from "./components/Pagination/Pagination";
-import ReactPaginate from "react-paginate";
 
 function App() {
   const [cardDetails, setCardDetails] = useState([]);

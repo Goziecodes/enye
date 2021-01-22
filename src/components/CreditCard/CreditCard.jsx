@@ -4,7 +4,7 @@ import { Transition } from "@headlessui/react";
 import "./creditCard.css";
 
 function CreditCard({ cards }) {
-  const [moreDetails, setMoreDetails] = useState(false);
+  // const [moreDetails, setMoreDetails] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   console.log(cards, "abiam");
   return (
